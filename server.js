@@ -2,7 +2,6 @@
 
 import express from 'express'
 import { students } from './data/students-data.js'
-console.log(students);
 
 // Create Express app
 
@@ -31,5 +30,4 @@ app.get('/students', function(req, res) {
 // Tell the app to listen on port 3000
 
 app.listen(3000, function() {
-    console.log('Listening on port 3000')
 })
